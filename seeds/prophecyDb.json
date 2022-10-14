@@ -1,0 +1,12 @@
+//emotions data
+//tags for 
+//angry 
+//sad afraid 
+//happy excited
+
+[
+    {
+        "prophecy_str": "this is where prophecy_str will go",
+        "emotions": "sad"
+    }
+]
