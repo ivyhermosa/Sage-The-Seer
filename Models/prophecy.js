@@ -16,14 +16,11 @@ Prophecy.init({
             len: [5]
         }
     },
-    user_id: {
-        type: DataTypes.INTEGER,
+    emotions: {
+        type: DataTypes.STRING,
         allowNull: false,
-        references: {
-            model: 'user',
-            key: 'id'
-        }
-    }
+
+    },
 
 }, {
     sequelize,
@@ -33,3 +30,12 @@ Prophecy.init({
 });
 
 module.exports = Prophecy;
+
+//emotions data
+//tags for 
+//angry 
+//sad afraid 
+//happy excited
+
+//many to many for users
+// through table
