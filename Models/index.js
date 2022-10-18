@@ -1,4 +1,5 @@
 
+
 const User = require('./user');
 const Prophecy = require('./prophecy');
 const UserProphecy = require('./userProphecy');
@@ -19,3 +20,5 @@ Prophecy.hasMany(User, {
 
 
 module.exports = {User, Prophecy, UserProphecy};
+
+
